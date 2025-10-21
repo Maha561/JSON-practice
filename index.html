@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON </title>
+</head>
+<body>
+    
+    <h2>
+        Simple json practice
+    </h2>
+
+    <script>
+
+        // ctreating json object
+
+        var student ={
+
+            "Name"  : "John",
+            "age": 23,
+            "gender" : "male",
+
+            "subjects" : ["Math", "Physics", "Computer"]
+        };
+        /*
+        We are creating a JSON object named student.
+
+         Keys: "name", "age", "gender", "subjects".
+
+         "subjects" is an array inside JSON.
+        */
+
+
+        // now we can access it 
+
+        document.write("Name : " +student.Name +"<br>" );
+
+        document.write("age : " +student.age+"<br>");
+
+        document.write(" display any one subject : " +student.subjects[1]);
+
+    </script>
+
+</body>
+</html>
